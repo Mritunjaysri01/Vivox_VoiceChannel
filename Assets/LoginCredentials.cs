@@ -10,10 +10,13 @@ using TMPro;
 public class LoginCredentials : MonoBehaviour
 {
     VivoxUnity.Client client;
-    private Uri server = new Uri("https://mt1s.www.vivox.com/api2");
-    private string issuer = "inreal6346-ci81-dev";
-    private string  domain = "mt1s.vivox.com";
-    private string tokenKey = "jars488";
+    
+    // Add vivox server credntials for your project
+    
+    private Uri server = new Uri("************");
+    private string issuer = "***********";
+    private string  domain = "********";
+    private string tokenKey = "********";
     private TimeSpan timeSpan = new TimeSpan(90);
 
 
